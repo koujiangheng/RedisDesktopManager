@@ -44,7 +44,7 @@ Application::Application(int& argc, char** argv)
   initAppFonts();
   initRedisClient();
 #ifndef RDM_APPSTORE
-  initUpdater();
+  //initUpdater();
 #endif
   installTranslator();
   initPython();
